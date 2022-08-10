@@ -1,0 +1,119 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ */
+
+.ski-resort-custom-block {
+
+	p {
+		margin: 0;
+		font-size: 1rem;
+
+		@media only screen and (min-width: 768px) {
+			font-size: 1.125rem;
+		}
+	}
+
+	.ski-resort-card {
+		border-radius: 0.5rem;
+		box-shadow: 0 0.25rem 1.875rem rgb(0 0 0 / 15%);
+		border-bottom: 0.5rem solid #469fc0;
+
+		.ski-resort-card-top-section {
+			position: relative;
+
+			.ski-resort-card-header-name {
+				background-color: #333;
+				color: #fff;
+				font-size: 1.4rem;
+				font-weight: 700;
+				margin: 0;
+				padding: 1rem;
+				border-radius: 0.5rem 0.5rem 0 0;
+			}
+
+			img {
+				width: 100%;
+				max-width: 100%;
+			}
+
+			.ski-resort-overlay-text {
+				position: absolute;
+				bottom: 0.4375rem;
+				background: #00000050;
+				width: 100%;
+				color: #fff;
+				text-align: center;
+
+				.ski-resort-overlay-text-header {
+					text-transform: uppercase;
+					margin: 0.5rem 0 0;
+					font-size: 1.25rem;
+
+					@media only screen and (min-width: 768px) {
+						font-size: 1.625rem;
+					}
+				}
+
+				.ski-resort-overlay-text-desc {
+					margin-bottom: 0.5rem;
+				}
+			}
+		}
+
+		.ski-resort-card-bottom-section {
+			padding: 1.5rem 2rem;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			align-items: center;
+			grid-row-gap: 2rem;
+			grid-column-gap: 1rem;
+
+			@media only screen and (min-width: 768px) {
+				padding: 3rem 5rem;
+			}
+
+			.ski-resort-weather-section-right {
+				color: #ed6762;
+				font-weight: 500;
+				font-size: 5rem;
+				line-height: 1;
+				letter-spacing: 0.5rem;
+				text-align: right;
+
+				@media only screen and (min-width: 768px) {
+					font-size: 7.5rem;
+				}
+			}
+
+			.ski-resort-navigation-section-right {
+				display: flex;
+				align-items: center;
+				margin-left: auto;
+
+				p {
+					margin-left: 1rem;
+				}
+			}
+
+			.ski-resort-navigation-section-left {
+
+				div {
+
+					&:first-child {
+						display: flex;
+						align-items: center;
+						margin-left: auto;
+
+						p {
+							margin-left: 1rem;
+							font-size: 1.875rem;
+							font-weight: 500;
+						}
+					}
+				}
+			}
+		}
+	}
+}
