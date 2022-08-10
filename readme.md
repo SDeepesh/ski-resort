@@ -25,13 +25,13 @@ WordPress plugin that enables a user in the administration panel to insert a gut
 - npm
 
 ## Setup
-`$ cd ski-resort` - To enter the folder type:
-`$ npm start` - You can start development with:
-`$ npm run build` - Builds the code for production.
-`$ npm run format` - Formats files.
-`$ npm run lint:css` - Lints CSS files.
-`$ npm run lint:js` - Lints JavaScript files.
-`$ npm run packages-update` - Updates WordPress packages to the latest version.
+- `$ cd ski-resort` - To enter the folder.
+- `$ npm start` - You can start development with.
+- `$ npm run build` - Builds the code for production.
+- `$ npm run format` - Formats files.
+- `$ npm run lint:css` - Lints CSS files.
+- `$ npm run lint:js` - Lints JavaScript files.
+- `$ npm run packages-update` - Updates WordPress packages to the latest version.
 
 ## Example
 - API middleware
