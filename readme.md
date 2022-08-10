@@ -81,4 +81,5 @@ function Proxy_Fnugg_Autocomplete_api($data)
 ```
 
 ## Gutenberg block
+![image](https://user-images.githubusercontent.com/63853806/183924268-4cfc00f4-c467-415e-a209-373a35bf9297.png)
 
