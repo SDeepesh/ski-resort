@@ -5,6 +5,7 @@
  */
 // import { useState } from "@wordpress/element";
 import { __ } from '@wordpress/i18n';
+import { useDispatch } from '@wordpress/data';
 import { Button, ToolbarGroup, ToolbarButton } from '@wordpress/components';
 import { ReactComponent as Cloud } from './images/cloud.svg';
 import { ReactComponent as Navigation } from './images/navigation.svg';
@@ -39,6 +40,7 @@ import './editor.scss';
 export default function Edit( { attributes, setAttributes } ) {
 	const isSourceAvailable = typeof attributes.resort_details !== 'undefined';
 	const blockProps = useBlockProps();
+	const { createErrorNotice } = useDispatch( 'core/notices' );
 
 	const AUTOCOMPLETE_END_POINT = 'ski/v1/autocomplete';
 	const SEARCH_END_POINT = 'ski/v1/search';
@@ -59,6 +61,14 @@ export default function Edit( { attributes, setAttributes } ) {
 				let fetchURL = AUTOCOMPLETE_END_POINT;
 				fetchURL = `${ AUTOCOMPLETE_END_POINT }?state=${ selectedFilterState }`;
 				const responses = await apiFetch( { path: fetchURL } );
+				if ( responses.total === 0 ) {
+					createErrorNotice(
+						__( 'No data found, Please try again!', 'ski-resort' ),
+						{
+							type: 'snackbar',
+						}
+					);
+				}
 				const result = responses.result;
 				return result;
 			},

@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied to the autocomplete component.
+ *
+ */
+
+.wp-block-create-block-ski-resort {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	.block-editor-rich-text__editable {
+		width: 100%;
+		border: 1px solid #333;
+		padding: 0 0.625rem;
+		margin-right: 1rem;
+		line-height: 1.9;
+	}
+}
