@@ -83,13 +83,13 @@ function Proxy_Fnugg_Autocomplete_api($data)
 ## Gutenberg block
 - Editor
 
-![image](https://user-images.githubusercontent.com/63853806/184142081-50ab4a8e-286e-452e-a548-91ab40b6de07.png)
-![image](https://user-images.githubusercontent.com/63853806/183924268-4cfc00f4-c467-415e-a209-373a35bf9297.png)
+![image](https://user-images.githubusercontent.com/63853806/184148108-6e4bb8cd-84a5-44c3-8a9c-e5348c717a41.png)
+![image](https://user-images.githubusercontent.com/63853806/184147652-d41d02e0-a8ae-473e-a358-32978d1200e2.png)
 
 - Frontend
 
 
-![image](https://user-images.githubusercontent.com/63853806/183924882-e8559c22-f962-43a1-9394-2881459a9217.png)
+![image](https://user-images.githubusercontent.com/63853806/184147818-3e0d0439-5edb-4a7b-90e7-d5e07b9f84fc.png)
 
 
 
