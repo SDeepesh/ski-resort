@@ -25,13 +25,13 @@ WordPress plugin that enables a user in the administration panel to insert a gut
 - npm
 
 ## Setup
-`$ cd ski-resort` - To enter the folder type:
-`$ npm start` - You can start development with:
-`$ npm run build` - Builds the code for production.
-`$ npm run format` - Formats files.
-`$ npm run lint:css` - Lints CSS files.
-`$ npm run lint:js` - Lints JavaScript files.
-`$ npm run packages-update` - Updates WordPress packages to the latest version.
+- `$ cd ski-resort` - To enter the folder.
+- `$ npm start` - You can start development with.
+- `$ npm run build` - Builds the code for production.
+- `$ npm run format` - Formats files.
+- `$ npm run lint:css` - Lints CSS files.
+- `$ npm run lint:js` - Lints JavaScript files.
+- `$ npm run packages-update` - Updates WordPress packages to the latest version.
 
 ## Example
 - API middleware
@@ -81,4 +81,16 @@ function Proxy_Fnugg_Autocomplete_api($data)
 ```
 
 ## Gutenberg block
+- Editor
+
+
+![image](https://user-images.githubusercontent.com/63853806/183924268-4cfc00f4-c467-415e-a209-373a35bf9297.png)
+
+- Frontend
+
+
+![image](https://user-images.githubusercontent.com/63853806/183924882-e8559c22-f962-43a1-9394-2881459a9217.png)
+
+
+
 
